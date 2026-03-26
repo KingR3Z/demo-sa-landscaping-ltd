@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Wendy", rating: 5, text: "Excellent garden management always friendly very tidy workers my garden has never looked so good even in the winter , Louise has done a magnificent job along with her colleagues . If your looking for a garden management programme these are the guys t", date: "3 months ago" },
+    { name: "Sue Harwood", rating: 5, text: "I am so pleased with my \"new\" front garden. Sam cleared an area of plants and laid new turf, so I feel I not have so much maintenance to do and can enjoy the garden again. The work was done speedily, efficiently and cleanly. I would definitely recomm", date: "3 months ago" },
+    { name: "Anne Thurston", rating: 5, text: "Sam and his team did an amazing job on my garden! They worked through rain and even snow to get my garden project completed.  I would absolutely recommend them for all landscaping jobs - great value, high quality work and really friendly team. Thank", date: "2 years ago" },
+    { name: "Louise Chambers", rating: 5, text: "Sam and his team have done a wonderful job. They worked hard and got the job done. Super team. Would definitely use them again for any future projects. Which says it all. A happy customer.  ", date: "2 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
