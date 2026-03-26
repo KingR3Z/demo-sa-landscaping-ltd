@@ -79,10 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Wendy", rating: 5, text: "Excellent garden management always friendly very tidy workers my garden has never looked so good even in the winter , Louise has done a magnificent job along with her colleagues . If your looking for a garden management programme these are the guys t", date: "3 months ago" },
-    { name: "Sue Harwood", rating: 5, text: "I am so pleased with my \"new\" front garden. Sam cleared an area of plants and laid new turf, so I feel I not have so much maintenance to do and can enjoy the garden again. The work was done speedily, efficiently and cleanly. I would definitely recomm", date: "3 months ago" },
-    { name: "Anne Thurston", rating: 5, text: "Sam and his team did an amazing job on my garden! They worked through rain and even snow to get my garden project completed.  I would absolutely recommend them for all landscaping jobs - great value, high quality work and really friendly team. Thank", date: "2 years ago" },
-    { name: "Louise Chambers", rating: 5, text: "Sam and his team have done a wonderful job. They worked hard and got the job done. Super team. Would definitely use them again for any future projects. Which says it all. A happy customer.  ", date: "2 years ago" },
+    { name: "Nancy L", rating: 4, text: "Settled into a good routine. Friendly and experienced team. Garden is well maintained. Looking forward to Spring projects.", date: "13 hours ago" },
+    { name: "Laura B", rating: 5, text: "Brilliant maintainence service - always organised and reliable! Would highly recommend!", date: "a month ago" },
+    { name: "Lorna Arduino", rating: 5, text: "SA Landscaping completed some garden works for us recently and from quoting through to completion they were all very professional and the finished job is excellent, would definitely recommend to others. Thanks so much.", date: "a month ago" },
+    { name: "Nikki Maxted", rating: 5, text: "Good service, reliable and turn up in all weathers.  They are always so cheerful and    polite. Would recommend their services if you want a regular reliable garden maintenance service.", date: "a month ago" },
+    { name: "Wendy", rating: 5, text: "Excellent garden management always friendly very tidy workers my garden has never looked so good even in the winter , Louise has done a magnificent job along with her colleagues . If your looking for a garden management programme these are the guys to go to", date: "3 months ago" },
+    { name: "Sue Harwood", rating: 5, text: "I am so pleased with my \"new\" front garden. Sam cleared an area of plants and laid new turf, so I feel I not have so much maintenance to do and can enjoy the garden again. The work was done speedily, efficiently and cleanly. I would definitely recommend Sam and his company.", date: "4 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
